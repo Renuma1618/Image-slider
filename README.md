@@ -1,11 +1,12 @@
 
 ## Title
 
-Calculator
+Image Gallery
 
 
 ## Description 
-A simple and user-friendly web-based calculator built using HTML, CSS, and JavaScript. Perform basic arithmetic operations, delete characters, and evaluate expressions with ease. The calculator features a clean and responsive design, making it accessible on various devices. Customize the calculator's appearance using CSS and leverage Font Awesome icons for visual appeal. An ideal addition to any web development project.
+
+A responsive web page that showcases a collection of images. It features a scrollable gallery with navigation buttons to navigate through the images. The gallery layout is designed using CSS grid, providing a clean and organized display. The images have a grayscale effect by default and transform to full color and slightly larger size on hover. Users can scroll horizontally using the mouse wheel or click the back and next buttons to navigate through the images.
 
 ## Authors
 
@@ -14,39 +15,71 @@ A simple and user-friendly web-based calculator built using HTML, CSS, and JavaS
     
 ## Getting Started
 
-This is a customizable web-based calculator application. Easily modify the design by changing the background image, font color, and icons to match your preferences. Here's how to get started:
+   1. Download the source code:
 
-   1. Clone the repository to your local machine.
+    --Clone or download the repository to your local machine.
 
-   2. Open the project in your preferred code editor.
+   2. Open the project:
 
-   3. Customize the HTML, CSS, or JavaScript files to suit your needs.
+    --Use your preferred code editor to open the downloaded project files.
 
-   4. Test the calculator locally to ensure it functions correctly.
+   3. Customize the code:
 
-   5. Deploy the updated application to your chosen hosting platform for others to use.
+    --Modify the HTML, CSS, and JavaScript files to match your desired design and requirements.
 
-Unleash your creativity and personalize the calculator according to your style!
+    --Replace the image files in the images folder with your own images or update the file paths accordingly.
 
+    --Customize the background color, font styles, or any other CSS properties as per your preference.
+
+   4. Test the functionality:
+
+    --Open the HTML file in a web browser to see the image gallery in action.
+
+    --Verify that the images are displayed correctly and the gallery layout meets your expectations.
+
+    --Test the navigation by scrolling horizontally using the mouse wheel or clicking the back and next buttons.
+
+   5. Deploy the web page:
+
+    --Upload the modified code to your web hosting or server.
+
+   6. Explore customization options:
+
+    --Experiment with different images to showcase your own collection.
+
+    --Customize the gallery layout, grid dimensions, or spacing to suit your visual preferences.
+
+    --Adjust the hover effects, such as grayscale to full color or image scaling, to create a unique user experience.
+
+   7. Enjoy the image gallery:
+
+    --View your website or web page with the personalized image gallery.
+
+    --Explore the images with smooth navigation and interactive hover effects.
+
+    --Make it your own by customizing the images, background, and styling to match your desired aesthetic.
+
+Note: The JavaScript code can be further customized to add additional functionality or interactions. Feel free to tailor the code to meet your specific needs or integrate it into your existing projects.
 
 
 ## Features
 
 
-   1. Basic arithmetic operations: Addition, subtraction, multiplication, and division.
 
-   2. Decimal point support and clearing display.
 
-   3. Delete last character and evaluate expressions.
+   1. Responsive image gallery.
 
-   4. User-friendly design with responsive layout.
+   2. Scrollable gallery with smooth navigation.
 
-   5. Styling with custom CSS for an appealing visual experience.
+   3. Grayscale effect on images, full color on hover.
 
-   6. Use of popular web fonts for improved typography.
+   4. CSS grid layout for organized display.
 
-   7. Integration of Font Awesome icons for enhanced aesthetics.
+   5. Horizontal scrolling using mouse wheel.
 
+   6. Back and next buttons for image navigation.
+
+   7. Easy customization of images and styling.
 
 
 
