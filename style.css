@@ -75,7 +75,7 @@ body {
 }
 
 .gallery div img {
-    width: 250px; /* Set a fixed width */
+    width: 270px; /* Set a fixed width */
     height: 250px; /* Set a fixed height */
     object-fit: cover; /* Ensures the image covers the area without stretching */
     filter: grayscale(80%);
