@@ -6,13 +6,19 @@
 }
 
 body {
-    background: floralwhite;
+    background: linear-gradient(135deg, #dd9050, #b885fb); 
+    color: #333; 
 }
 
 .gallery {
     width: 900px;
     display: flex;
     overflow-x: scroll;
+    scroll-behavior: smooth; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    background: #ffffff; 
+    padding: 15px;
 }
 
 .gallery div {
@@ -20,15 +26,16 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
-    padding: 10px;
+    padding: 15px;
     flex: none;
 }
 
 .gallery div img {
     width: 100%;
-    filter: grayscale(100%);
-    transition: transform 0.5s;
-
+    filter: grayscale(80%);
+    transition: transform 0.5s, filter 0.5s;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
 }
 
 .gallery::-webkit-scrollbar {
@@ -39,7 +46,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10% auto;
+    margin: 5% auto;
+    padding: 25px;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f); 
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2); 
 }
 
 #backBtn,
@@ -47,10 +58,48 @@ body {
     width: 50px;
     cursor: pointer;
     margin: 40px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2)); 
+}
+
+#backBtn:hover,
+#nextBtn:hover {
+    transform: scale(1.2);
 }
 
 .gallery div img:hover {
     filter: grayscale(0);
     cursor: pointer;
     transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+}
+
+span img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25); 
+}
+
+/
+.gallery div img:hover {
+    box-shadow: 0px 6px 20px rgba(255, 165, 0, 0.4); 
+}
+
+
+button {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
 }
